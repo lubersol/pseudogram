@@ -38,7 +38,7 @@ class FileUpload extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container-avatar">
         <progress value={this.state.uploadValue} max="100">
           {this.state.uploadValue} %
         </progress>
